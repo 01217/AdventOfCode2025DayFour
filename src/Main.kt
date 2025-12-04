@@ -3,8 +3,10 @@ import java.io.FileReader
 
 fun main() {
     val resultTaskOne = taskOne("inp/input.in")
+    val resultTaskTwo = taskTwo("inp/input.in")
 
     println("Task1: $resultTaskOne")
+    println("Task2: $resultTaskTwo")
 }
 
 fun taskOne(filePath : String) : Int{
@@ -22,6 +24,10 @@ fun taskOne(filePath : String) : Int{
     }
 
     return result
+}
+
+fun taskTwo(filePath : String) : Int {
+    return 0
 }
 
 fun checkRollNeighbors(y : Int, x : Int, grid : List<String>) : Boolean {
