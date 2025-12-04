@@ -10,4 +10,12 @@ class Test {
 
         Assertions.assertEquals(expectedResult, taskOne("inp/test.in"))
     }
+
+    @Test
+    @DisplayName("Task 2 Test")
+    fun taskTwoTest() {
+        val expectedResult = 43
+
+        Assertions.assertEquals(expectedResult, taskTwo("inp/test.in"))
+    }
 }
